@@ -1,0 +1,13 @@
+{
+  "node_error_code": "E_UNKNOWN_NODE",
+  "tree_error_code": "E_BAD_TREE",
+  "nodes": [
+    {"id": "root", "parent": null},
+    {"id": "a", "parent": "root"},
+    {"id": "b", "parent": "root"},
+    {"id": "a1", "parent": "a"},
+    {"id": "a2", "parent": "a"},
+    {"id": "b1", "parent": "b"}
+  ],
+  "expanded": ["root", "a"]
+}
